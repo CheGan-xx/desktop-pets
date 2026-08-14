@@ -1,0 +1,21 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local/editor files
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Generation and QA artifacts should stay outside this portable package
+decoded/
+generated/
+qa/
+prompts/
+references/
